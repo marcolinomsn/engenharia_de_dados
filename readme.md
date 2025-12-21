@@ -21,23 +21,23 @@ O objetivo principal é demonstrar a construção de um **pipeline de dados comp
 
 O projeto segue uma arquitetura em camadas:
 
-### 🔸 Staging
+### 🔸 [Staging](mvp02-download.ipynb)
 - Leitura inicial dos arquivos CSV
 - Dados ainda sem validações ou transformações profundas
 
-### 🔸 Bronze
+### 🔸 [Bronze](mvp03-bronze.ipynb)
 - Armazenamento dos dados brutos
 - Estrutura próxima à origem
 - Persistência em tabelas Delta
 
-### 🔸 Silver
+### 🔸 [Silver](mvp04-silver.ipynb)
 - Padronização de nomes de colunas
 - Conversão de tipos
 - Tratamento de valores ausentes
 - Criação de colunas temporais
 - Dados prontos para análise
 
-### 🔸 Gold
+### 🔸 [Gold](mvp05-gold.ipynb)
 - Integração entre dados meteorológicos e estações
 - Criação de indicadores derivados
 - Dados consolidados para consumo analítico e visualização
@@ -61,7 +61,7 @@ O projeto segue uma arquitetura em camadas:
 
 ---
 
-## 📊 Análises Realizadas
+## [📊 Análises Realizadas](mvp06-analise.ipynb)
 
 - Distribuição de estações por **região** e **estado**
 - Identificação das estações com **maior série histórica** por região
